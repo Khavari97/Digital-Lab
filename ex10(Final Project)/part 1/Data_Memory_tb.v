@@ -1,5 +1,4 @@
 
-`timescale 1ns/1ps
 module Data_Memory_tb;
    reg reset_; initial begin reset_=0; #22 reset_=1; #600; $stop; end
    reg clk;  initial clk<=0;   always #5 clk<=(!clk);
